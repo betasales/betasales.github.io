@@ -5,26 +5,92 @@ $(document).ready(function() {
     mixpanel.track($(this).attr("track"))  
   });
 
-  $(".resume").sparkle( {
-    color: "#FFFFFF",
-    count: 30,
-    overlap: 0,
-    speed: 1,
-    minSize: 4,
-    maxSize: 7,
-    direction: "both"
+  //signup
+  $('#email-signup').click(function () { 
+    $('#github-signup').hide()
+    $('#google-signup').hide()
+    $('#email-signup').hide()
+    $('.divider').hide()
+    $('#signup-form').show()
+  });  
+
+  //use cases jquery  
+  $('#use-case-1').click(function () {
+    $('#use-case-select-1').addClass('active')
+    $('#use-case-carrot-1').addClass('active')
+    $('#use-case-lead-1').addClass('active')
+    $('#use-case-description-1').show()
+    $('#use-case-select-2').removeClass('active')
+    $('#use-case-carrot-2').removeClass('active')
+    $('#use-case-lead-2').removeClass('active')
+    $('#use-case-description-2').hide()
+    $('#use-case-select-3').removeClass('active')
+    $('#use-case-carrot-3').removeClass('active')
+    $('#use-case-lead-3').removeClass('active')
+    $('#use-case-description-3').hide()
+    $('#use-case-select-4').removeClass('active')
+    $('#use-case-carrot-4').removeClass('active')
+    $('#use-case-lead-4').removeClass('active')
+    $('#use-case-description-4').hide()
+  });
+  $('#use-case-2').click(function () {
+    $('#use-case-select-2').addClass('active')
+    $('#use-case-carrot-2').addClass('active')
+    $('#use-case-lead-2').addClass('active')
+    $('#use-case-description-2').show()
+    $('#use-case-select-1').removeClass('active')
+    $('#use-case-carrot-1').removeClass('active')
+    $('#use-case-lead-1').removeClass('active')
+    $('#use-case-description-1').hide()
+    $('#use-case-select-3').removeClass('active')
+    $('#use-case-carrot-3').removeClass('active')
+    $('#use-case-lead-3').removeClass('active')
+    $('#use-case-description-3').hide()
+    $('#use-case-select-4').removeClass('active')
+    $('#use-case-carrot-4').removeClass('active')
+    $('#use-case-lead-4').removeClass('active')
+    $('#use-case-description-4').hide()
+  });
+  $('#use-case-3').click(function () {
+    $('#use-case-select-3').addClass('active')
+    $('#use-case-carrot-3').addClass('active')
+    $('#use-case-lead-3').addClass('active')
+    $('#use-case-description-3').show()
+    $('#use-case-select-1').removeClass('active')
+    $('#use-case-carrot-1').removeClass('active')
+    $('#use-case-lead-1').removeClass('active')
+    $('#use-case-description-1').hide()
+    $('#use-case-select-2').removeClass('active')
+    $('#use-case-carrot-2').removeClass('active')
+    $('#use-case-lead-2').removeClass('active')
+    $('#use-case-description-2').hide()
+    $('#use-case-select-4').removeClass('active')
+    $('#use-case-carrot-4').removeClass('active')
+    $('#use-case-lead-4').removeClass('active')
+    $('#use-case-description-4').hide()
+  });
+  $('#use-case-4').click(function () {
+    $('#use-case-select-4').addClass('active')
+    $('#use-case-carrot-4').addClass('active')
+    $('#use-case-lead-4').addClass('active')
+    $('#use-case-description-4').show()
+    $('#use-case-select-1').removeClass('active')
+    $('#use-case-carrot-1').removeClass('active')
+    $('#use-case-lead-1').removeClass('active')
+    $('#use-case-description-1').hide()
+    $('#use-case-select-2').removeClass('active')
+    $('#use-case-carrot-2').removeClass('active')
+    $('#use-case-lead-2').removeClass('active')
+    $('#use-case-description-2').hide()
+    $('#use-case-select-3').removeClass('active')
+    $('#use-case-carrot-3').removeClass('active')
+    $('#use-case-lead-3').removeClass('active')
+    $('#use-case-description-3').hide()
   });
 
-  // $('.hex-nav').hover(function () {
-  //   $('.fa').addClass('blue');
-  // }, function () {
-  //   console.log('hello world')
-  //   $('.fa').removeClass('blue');
-  // });
-
-  // $('.hex-nav .hex-fa').hover(function () {
-  //   console.log("hello world")
-  //   $('.fa').addClass('white');
-  //   $('.hexagon').addClass('.hexagon.white');
-  // });
+  //data sheet download
+  $('#datasheet-prompt').click(function () { 
+    $('#datasheet-prompt').hide()
+    $('#download-datasheet-filter').show()
+  });
 });
