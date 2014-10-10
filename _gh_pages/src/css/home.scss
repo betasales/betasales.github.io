@@ -25,6 +25,38 @@ em { font-style: italic; }
 
 nav { height: 60px; background: #fff; }
 
+.navbar-brand {
+  height: 58px;
+}
+
+.navbar-default {
+  background-color: #FFF;
+  opacity: .97;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #5d748a;
+  font-weight: 600;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #4aa4ff;
+}
+
+.navbar-brand {
+  padding-right: 40px;
+}
+
+.navbar-btn {
+  margin-top: 13px;
+  margin-bottom: 8px;
+}
+
+.navbar-nav>li>a {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
 #top { height: 600px; background: #2E4051; }
 
 #tagline {

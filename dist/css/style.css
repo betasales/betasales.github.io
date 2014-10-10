@@ -345,41 +345,6 @@ input, .input-lg {
   color: #fff;
 }
 
-
-/*== NAVBAR ==========================*/
-
-.navbar-brand {
-  height: 58px;
-}
-
-.navbar-default {
-  background-color: #FFF;
-  opacity: .97;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #5d748a;
-  font-weight: 600;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-  color: #4aa4ff;
-}
-
-.navbar-brand {
-  padding-right: 40px;
-}
-
-.navbar-btn {
-  margin-top: 13px;
-  margin-bottom: 8px;
-}
-
-.navbar-nav>li>a {
-  padding-top: 20px;
-  padding-bottom: 15px;
-}
-
 /*== HOME ======================= */
 
 .sign-up-container {
@@ -434,9 +399,9 @@ input, .input-lg {
   margin-right: -50%;
 }
 
-#home {
+/*#home {
   background-color: #2d3e5f;
-}
+}*/
 
 .hero {
   height: 630px;
@@ -445,7 +410,7 @@ input, .input-lg {
   left: 0;
   background:
     linear-gradient(to bottom, rgba(160, 107, 213, .1) 0%, rgba(0, 124, 252, .1) 10%),
-    url('http://static.elasticbox.com.s3-us-west-1.amazonaws.com/home-hero-background-2.png') center bottom repeat no-repeat;
+    url('background: url("https://s3.amazonaws.com/betasales/betasales_work.jpg");') center bottom repeat no-repeat;
 }
 
 .home-lead {

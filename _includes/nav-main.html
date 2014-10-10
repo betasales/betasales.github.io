@@ -7,32 +7,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="{{ page.base_url }}"><img src="http://static.elasticbox.com.s3-us-west-1.amazonaws.com/elasticbox-logo-old.svg" class="navbar-brand"></img></a>
+      <a href="{{ page.base_url }}"><img src="https://s3.amazonaws.com/betasales/beta_logo_large.png" class="navbar-brand"></img></a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav navbar">
-        <li>
-          <a href="{{ page.base_url }}how-it-works">How It Works</a>
-        </li>
-        <li>
-          <a href="{{ page.base_url }}enterprise">Enterprise</a>
-        </li>
+      <ul class="nav navbar-nav navbar-right">
         <li{% if page.slug == "components" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}editions">Editions</a>
+          <a href="{{ page.base_url }}editions">Startups</a>
         </li>
         <li{% if page.slug == "js" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}about">About</a>
+          <a href="{{ page.base_url }}about">Services</a>
         </li>
-                <li{% if page.slug == "js" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}blog">Blog</a>
+        <li{% if page.slug == "js" %} class="active"{% endif %}>
+          <a href="{{ page.base_url }}blog">Advisors</a>
         </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li{% if page.slug == "login" %} class="active"{% endif %}>
-          <a class="hidden-sm hidden-xs" href="{{ page.base_url }}login">Login</a>
+          <a class="hidden-sm hidden-xs" href="{{ page.base_url }}login">VCs</a>
         </li>
         <li{% if page.slug == "about" %} class="active"{% endif %}>
-          <button type="button" href="#sign-up-modal" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#sign-up-modal">SIGN UP</button>
+          <button type="button" href="#sign-up-modal" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#sign-up-modal">APPLY NOW</button>
         </li>
       </ul>
     </nav>
