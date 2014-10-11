@@ -55,7 +55,27 @@ em {
 /* End reset + base */
 nav {
   height: 60px;
-  background: #fff; }
+}
+
+h1,
+h2,
+h3.lead {
+  color: #4aa4ff;
+  font-family: 'adelle-sans' sans-serif;
+  font-weight: 600;
+}
+
+.lead-sub {
+  font-family: 'proxima-nova' sans-serif;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  z-index: 10;
+  border: 1px solid transparent;
+}
 
 .navbar-brand {
   height: 58px;
@@ -97,52 +117,65 @@ nav {
   padding-bottom: 15px;
 }
 
+.nav-secondary {
+  margin-top: -100px;
+  border-bottom: solid 1px #edeeef;
+}
+
+.navbar-default .navbar-nav>li>a.nav-links-secondary {
+  color: #4aa4ff;
+  font-weight: 600;
+  position: relative;
+}
+
+#navbar-brand-secondary {
+  margin-left: 80px;
+}
+
 #top {
   height: 600px;
   background: #2E4051; 
 }
 
 #home {
-  height: 630px;
-  top: 0;
+  position: relative;
+  height: 770px;
+  top: -80px;
   right: 0;
   left: 0;
-  background:
-    linear-gradient(to bottom, rgba(0, 0, 0, .4) 20%, rgba(0, 24, 48, .4) 40%),
-    url("https://s3.amazonaws.com/betasales/betasales_work.jpg") center bottom repeat no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 20%, rgba(0, 24, 48, .4) 40%), url("https://s3.amazonaws.com/betasales/betasales_work.jpg") center bottom repeat no-repeat;
 }
 
-#tagline {
-  background: #C0CCD6;
-  padding: 47px 0;
-  position: relative; 
-}
-
-#tagline h1 {
-  font-size: 34px;
-  font-family: "Monda", sans-serif;
-  font-weight: normal;
+.home-lead {
+  padding-top: 160px;
   color: #fff;
-  text-align: center; 
+  line-height: 1.6;
+  font-family: 'adelle-sans' sans-serif;
+}
+
+.home-sub {
+  margin: 0 auto;
+  max-width: 90%;
+  font-family: 'proxima-nova', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.7;
 }
   
-#tagline:after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -24px;
-  left: 50%;
-  margin-left: -12px;
-  border: 12px solid transparent;
-  border-top-color: #C0CCD6; 
+.fa-home-container {
+  padding-top: 140px;
+  opacity: .6;
 }
 
-#application-deployed {
-  background: #2E4051;
-  height: 500px; 
+section {
+  border-bottom: solid 1px #edeeef;
 }
 
-#special {
-  background: #F0F2F5;
-  height: 820px; 
+.row-services .col-lg-3 {
+    border: solid 1px #edeeef;
+}
+
+.fa-service {
+  padding-right: 10px;
 }

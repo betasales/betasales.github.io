@@ -1,0 +1,61 @@
+<script type="javascript">
+  $('#sign-up-modal').modal('show');
+</script>
+
+<div id="sign-up-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="#sign-up-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content signup-form">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 class="modal-title text-center" id="myModalLabel">SIGN UP</h3>
+      </div>
+      <div class="modal-header sub-header">
+        <h4 class="text-center">Try the free Developer Edition. Deploy an application and get a free t-shirt.</h4>
+      </div>
+      <div class="modal-body">
+        <script>
+          $(document).ready(function() {    
+            $('#email-signup').click(function () { 
+              $('#github-signup').hide()
+              $('#google-signup').hide()
+              $('#email-signup').hide()
+              $('.divider').hide()
+              $('#signup-form').show()
+            });
+          });
+        </script>
+        <button type="button" class="btn btn-lg btn-primary btn-block btn-modal" id="github-signup" href="">
+          <i class="fa fa-github" id="small-github-icon"></i>
+          <span class="">SIGN UP WITH GITHUB</span>
+        </button>
+        <button type="button" class="btn btn-lg btn-google btn-block btn-modal" id="google-signup" href="">
+          <i class="fa fa-google-plus" id="small-github-icon"></i>
+          <span class="">SIGN UP WITH GOOGLE</span>
+        </button>
+        <span class="divider">Or</span>
+        <button type="button" class="btn btn-lg btn-email btn-block btn-modal" id="email-signup" href="">
+          <span class="">SIGN UP WITH EMAIL</span>
+        </button>
+        <form role="form" id="signup-form" style="display:none;">
+          <div class="form-group">
+            <label class="text-muted" or="exampleInputEmail1">Full Name <span class="required-form">*</span></label>
+            <input type="email" class="form-control input-lg" id="exampleInputEmail1">
+          </div>
+          <div class="form-group">
+            <label class="text-muted" for="exampleInputPassword1">Work Email <span class="required-form">*</span></label>
+            <input type="password" class="form-control input-lg" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label class="text-muted" for="exampleInputPassword1">Password <span class="required-form">*</span></label>
+            <input type="password" class="form-control input-lg" id="exampleInputPassword1">
+          </div>
+          <button class="btn btn-lg btn-primary btn-block" id="email-complete">LET'S GO!</button>
+        </form>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-block btn-primary">LETS GO!</button>
+      </div> -->
+      <p class="tos text-muted text-center">By signing up you agree to ElasticBox's <br><a href="{{ page.base_url }}terms-of-service">terms of service</a
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -25,16 +25,6 @@ a:hover.more {
   text-decoration: none;
 }
 
-.lead {
-  margin-top: 15px;
-  font-size: 19px;
-  color: #707F8E;
-}
-
-h3.lead {
-  color: #707F8E;
-}
-
 .scripts-more {
   font-size: 19px;
 }
@@ -368,10 +358,6 @@ input, .input-lg {
   text-align: center;
 }
 
-.btn-home {
-  margin-top: 20px;
-}
-
 .title {
   line-height: 47px;
   font-size: 18px;
@@ -417,15 +403,16 @@ input, .input-lg {
   padding-top: 120px;
   color: #fff;
   line-height: 1.6;
+  font-family: 'adelle-sans' sans-serif;
 }
 
 .home-sub {
   margin: 0 auto;
   max-width: 90%;
-  font-family: 'Monda', sans-serif;
-  color: #627990;
+  font-family: 'proxima-nova', sans-serif;
+  color: #fff;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.7;
 }
 
@@ -613,6 +600,7 @@ h2.box-overview-lead {
 
   .home-sub {
     max-width: 100%;
+    color: #fff;
   }
 
   .sign-up-container {
