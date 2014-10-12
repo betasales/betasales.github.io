@@ -1819,12 +1819,12 @@ p.clear-leadership-social {
 /*== FORMS =======================*/
 
 .modal-backdrop.in {
-  opacity: 0.7;
+  opacity: 0.3;
   filter: alpha(opacity=50);
 }
 
 .modal-backdrop {
-  background-color: #2c3c5c;
+  background-color: #007cf4;
 }
 
 h3.modal-title {
@@ -1833,7 +1833,7 @@ h3.modal-title {
 
 .modal-header {
   color: #FFF;
-  background-color: #4d69a1;
+  background-color: #007cf4;
   border-bottom: none;
 }
 
