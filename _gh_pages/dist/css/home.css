@@ -60,7 +60,7 @@ nav {
 h1,
 h2,
 h3.lead {
-  color: #4aa4ff;
+  color: #007cf4;
   font-family: 'adelle-sans' sans-serif;
   font-weight: 600;
 }
@@ -97,8 +97,8 @@ h3.lead {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #4aa4ff;
-  border-bottom: 4px solid #4aa4ff;
+  color: #007cf4;
+  border-bottom: 4px solid #007cf4;
   border-bottom-width: 80%;
 }
 
@@ -123,9 +123,10 @@ h3.lead {
 }
 
 .navbar-default .navbar-nav>li>a.nav-links-secondary {
-  color: #4aa4ff;
+  color: #007cf4;
   font-weight: 600;
   position: relative;
+  right: 100px;
 }
 
 #navbar-brand-secondary {
@@ -143,7 +144,9 @@ h3.lead {
   top: -80px;
   right: 0;
   left: 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 20%, rgba(0, 24, 48, .4) 40%), url("https://s3.amazonaws.com/betasales/betasales_work.jpg") center bottom repeat no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .2) 20%, rgba(0, 24, 48, .4) 40%), url("https://s3.amazonaws.com/betasales/betasales_work.jpg") center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .home-lead {
@@ -172,10 +175,47 @@ section {
   border-bottom: solid 1px #edeeef;
 }
 
+.sales-process {
+  margin-top: -70px;
+  height: 470px;
+  width: 510px;
+  background-image: url('https://s3.amazonaws.com/betasales/go_to_market.png');
+  background-size: 100%;
+  overflow: visible;
+}
+
 .row-services .col-lg-3 {
     border: solid 1px #edeeef;
+    margin: 40px;
+    padding: 20px;
 }
 
 .fa-service {
   padding-right: 10px;
+}
+
+.startups {
+  margin-top: -20px;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  overflow: hidden;
+}
+
+#startups {
+  padding-bottom: 0px;
+}
+
+p.sub-lead {
+  line-height: 1.6;
+  font-size: 16px;
+  width: 80%;
+}
+
+.go-to-market-lead {
+  padding-top: 40px;
+}
+
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
