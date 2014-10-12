@@ -177,7 +177,7 @@ section {
 
 .sales-process {
   margin-top: -70px;
-  height: 470px;
+  height: 420px;
   width: 510px;
   background-image: url('https://s3.amazonaws.com/betasales/go_to_market.png');
   background-size: 100%;
@@ -185,7 +185,7 @@ section {
 }
 
 .product-validation {
-  height: 220px;
+  height: 280px;
   width: 490px;
   margin-left: -30px;
   margin-top: 20px;
@@ -210,8 +210,7 @@ section {
 
 .startups {
   margin-top: -20px;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 30px;
   overflow: hidden;
 }
 
@@ -222,7 +221,6 @@ section {
 p.sub-lead {
   line-height: 1.6;
   font-size: 16px;
-  width: 80%;
 }
 
 .go-to-market-lead {
@@ -248,3 +246,38 @@ p.sub-lead {
   border-bottom: 1px solid #edeeef;
   width: 60%;
 }
+
+.description-lead {
+  width: 90;
+}
+
+.sub-services {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.services-break {
+  background-color: #f5f8fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.img-advisor {
+  margin: 0 auto;
+}
+
+#advisors {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.row-advisors {
+  padding-top: 40px;
+}
+
+.footer-copy {
+  padding-top: 18px;
+}
+
+
+

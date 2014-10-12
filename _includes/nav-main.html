@@ -12,16 +12,16 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li{% if page.slug == "components" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}editions">Startups</a>
+          <a href="{{ page.base_url }}#startups">Startups</a>
         </li>
         <li{% if page.slug == "js" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}about">Services</a>
+          <a href="{{ page.base_url }}#services">Services</a>
         </li>
         <li{% if page.slug == "js" %} class="active"{% endif %}>
-          <a href="{{ page.base_url }}blog">Advisors</a>
+          <a href="{{ page.base_url }}#advisors">Advisors</a>
         </li>
         <li{% if page.slug == "login" %} class="active"{% endif %}>
-          <a class="hidden-sm hidden-xs" href="{{ page.base_url }}login">VCs</a>
+          <a class="hidden-sm hidden-xs" href="{{ page.base_url }}contact">Contact</a>
         </li>
         <li{% if page.slug == "about" %} class="active"{% endif %}>
           <button type="button" href="#" class="btn btn-primary navbar-btn" data-toggle="modal" data-target="#sign-up-modal">APPLY NOW</button>

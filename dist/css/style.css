@@ -349,7 +349,7 @@ input, .input-lg {
 }
 
 .btn-home, .input-home {
-  width: 100%;
+  width: 240px;
   height: 47px;
   font-size: 18px;
 }
