@@ -53,9 +53,6 @@ em {
 /* IE7 */
 /* End clearfix */
 /* End reset + base */
-nav {
-  height: 60px;
-}
 
 h1,
 h2,
@@ -70,7 +67,7 @@ h3.lead {
 }
 
 .navbar {
-  min-height: 50px;
+  height: 59px;
   margin-bottom: 20px;
   z-index: 10;
 }
